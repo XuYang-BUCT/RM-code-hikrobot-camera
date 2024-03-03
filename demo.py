@@ -12,6 +12,12 @@ from ctypes import *
 sys.path.append("./MvImport")
 from MvCameraControl_class import *
 
+from ultralytics import YOLO
+from cv2 import getTickCount, getTickFrequency
+
+# 加载 YOLOv8 模型
+model = YOLO("weights/yolov8s.pt")
+
 g_bExit = False
 
 img_w = 1440
@@ -21,8 +27,10 @@ img_c = 3
 
 # 显示图像
 def image_show(image):
-    image = cv2.resize(image, (600, 400), interpolation=cv2.INTER_AREA)
-    cv2.imshow("test", image)
+    image = cv2.resize(image, (1440, 1080), interpolation=cv2.INTER_AREA)
+    results = model.predict(source=image)  # 对当前帧进行目标检测并显示结果
+    annotated_image = results[0].plot()
+    cv2.imshow("test", annotated_image)
     k = cv2.waitKey(1) & 0xFF
 
 
@@ -69,8 +77,9 @@ def work_thread_rgb82bgr(cam=0, pData=0, nDataSize=0):
             temp = np.asarray(pData)
             temp = temp.reshape((img_h, img_w, img_c))
             temp = cv2.cvtColor(temp, cv2.COLOR_BGR2RGB)
-            cv2.namedWindow("temp", cv2.WINDOW_NORMAL)
-            cv2.imshow("temp", temp)
+            # cv2.namedWindow("temp", cv2.WINDOW_NORMAL)
+            # cv2.imshow("temp", temp)
+            image_show(temp)
             cv2.waitKey(1)
             # else:
             # print("图像输出格式不是BGR8,请先使用MVS软件设置相机默认输出图像格式为BGR8....")
