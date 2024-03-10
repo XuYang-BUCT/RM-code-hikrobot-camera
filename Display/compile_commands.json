@@ -1,0 +1,16 @@
+[
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-g",
+            "-I",
+            "../include",
+            "-o",
+            "Display",
+            "Display.cpp"
+        ],
+        "directory": "/home/xuy-kenbio/UbuntuCode/RM-code-hikrobot-camera/Display",
+        "file": "Display.cpp"
+    }
+]
