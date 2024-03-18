@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "Baldr"
+  "Baldr.pdb"
+  "CMakeFiles/Baldr.dir/Src/angle/CoordinateSolver/ArmorCoordinateSolver.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/angle/CoordinateSolver/ArmorCoordinateSolver.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/angle/CoordinateSolver/BuffCoordinateSolver.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/angle/CoordinateSolver/BuffCoordinateSolver.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/angle/KalmanPredict/KalmanPredict.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/angle/KalmanPredict/KalmanPredict.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/angle/PNP/PNPSolver.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/angle/PNP/PNPSolver.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/angle/angleFactory.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/angle/angleFactory.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/armor/armorDistinguish.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/armor/armorDistinguish.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/armor/bpPredict/net.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/armor/bpPredict/net.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/buff/buffDistinguish.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/buff/buffDistinguish.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/buff/buffTest.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/buff/buffTest.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/camera/calibration/cameraCalibration.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/camera/calibration/cameraCalibration.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/camera/modifyCamera.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/camera/modifyCamera.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/camera/streamRetrieve.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/camera/streamRetrieve.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/decisionLevel/decisionLevel.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/decisionLevel/decisionLevel.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/main.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/main.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/serial/serial.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/serial/serial.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/tool/autoSaveSample.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/tool/autoSaveSample.cpp.o.d"
+  "CMakeFiles/Baldr.dir/Src/tool/fileOperation.cpp.o"
+  "CMakeFiles/Baldr.dir/Src/tool/fileOperation.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Baldr.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,3 @@
+/home/xuy-kenbio/UbuntuCode/RM-code-hikrobot-camera/Baldr-main/build/CMakeFiles/Baldr.dir
+/home/xuy-kenbio/UbuntuCode/RM-code-hikrobot-camera/Baldr-main/build/CMakeFiles/edit_cache.dir
+/home/xuy-kenbio/UbuntuCode/RM-code-hikrobot-camera/Baldr-main/build/CMakeFiles/rebuild_cache.dir

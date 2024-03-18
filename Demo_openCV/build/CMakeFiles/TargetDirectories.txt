@@ -1,0 +1,3 @@
+/home/xuy-kenbio/UbuntuCode/RM-code-hikrobot-camera/Demo_openCV/build/CMakeFiles/rebuild_cache.dir
+/home/xuy-kenbio/UbuntuCode/RM-code-hikrobot-camera/Demo_openCV/build/CMakeFiles/edit_cache.dir
+/home/xuy-kenbio/UbuntuCode/RM-code-hikrobot-camera/Demo_openCV/build/CMakeFiles/try_demo.dir

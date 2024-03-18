@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/xuy-kenbio/UbuntuCode/RM-code-hikrobot-camera/Demo_openCV/build",
+  "command": "/usr/bin/c++   -isystem /usr/include/opencv4    -o CMakeFiles/try_demo.dir/main.cpp.o -c /home/xuy-kenbio/UbuntuCode/RM-code-hikrobot-camera/Demo_openCV/main.cpp",
+  "file": "/home/xuy-kenbio/UbuntuCode/RM-code-hikrobot-camera/Demo_openCV/main.cpp"
+}
+]
